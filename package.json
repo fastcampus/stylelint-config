@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-fastcampus",
+  "name": "@fastcampus/stylelint-config-fastcampus",
   "version": "0.0.1",
   "description": "stylelint config for fastcampus",
   "main": "index.js",
