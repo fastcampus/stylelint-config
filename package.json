@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-config-fastcampus",
+  "version": "0.0.1",
+  "description": "stylelint config for fastcampus",
+  "main": "index.js",
+  "scripts": {
+    "test": "stylelint test.css --config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastcampus/stylelint-config-fastcampus.git"
+  },
+  "keywords": [
+    "fast",
+    "fastcampus",
+    "stylelint-config",
+    "stylelint-order",
+    "properties-order",
+    "css property order"
+  ],
+  "author": "Jaewon Noh",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^13.8.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
