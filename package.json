@@ -1,5 +1,5 @@
 {
-  "name": "@fastcampus/stylelint-config-fastcampus",
+  "name": "@fastcampus/stylelint-config",
   "version": "0.0.1",
   "description": "stylelint config for fastcampus",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastcampus/stylelint-config-fastcampus.git"
+    "url": "git+https://github.com/fastcampus/stylelint-config.git"
   },
   "keywords": [
     "fast",
