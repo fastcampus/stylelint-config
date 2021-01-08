@@ -13,15 +13,22 @@
   "keywords": [
     "fast",
     "fastcampus",
+    "stylelint-fastcampus",
     "stylelint-config",
+    "stylelint-config-fastcampus",
     "stylelint-order",
     "properties-order",
     "css property order"
   ],
   "author": "Jaewon Noh",
   "license": "MIT",
-  "devDependencies": {
-    "stylelint": "^13.8.0",
+  "dependencies": {
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.8.0"
   }
 }
