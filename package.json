@@ -4,7 +4,8 @@
   "description": "stylelint config for fastcampus",
   "main": "index.js",
   "scripts": {
-    "test": "stylelint test.css --config index.js"
+    "test": "stylelint test.css --config index.js",
+    "ci:test": "npm run test"
   },
   "repository": {
     "type": "git",
