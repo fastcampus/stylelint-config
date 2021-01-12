@@ -10,7 +10,6 @@ module.exports = {
         ignorePseudoElements: ["v-deep"],
       },
     ],
-    "declaration-empty-line-before": null,
     "order/order": [
       {
         type: "at-rule",
@@ -49,7 +48,6 @@ module.exports = {
     "order/properties-order": [
       {
         groupName: "layout",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "content",
@@ -108,7 +106,6 @@ module.exports = {
       },
       {
         groupName: "box",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "box-sizing",
@@ -174,7 +171,6 @@ module.exports = {
       },
       {
         groupName: "box style",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "background",
@@ -208,7 +204,6 @@ module.exports = {
       },
       {
         groupName: "font style",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "font",
@@ -255,7 +250,6 @@ module.exports = {
       },
       {
         groupName: "interaction",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "filter",
@@ -301,7 +295,6 @@ module.exports = {
       },
       {
         groupName: "transition, transform and animation",
-        emptyLineBefore: "always",
         noEmptyLineBetween: true,
         properties: [
           "transition",
