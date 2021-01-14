@@ -10,6 +10,7 @@ module.exports = {
         ignorePseudoElements: ["v-deep"],
       },
     ],
+    "declaration-empty-line-before": null,
     "order/order": [
       {
         type: "at-rule",
