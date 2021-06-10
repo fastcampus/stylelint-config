@@ -1,5 +1,8 @@
 #Change log
 v0.0.3 2021-02-38 jwno@fastcampus.co.kr
+- 내부 디펜던시 업데이트.
+
+v0.0.3 2021-02-38 jwno@fastcampus.co.kr
 - stylelint-order룰에 정의된 그룹간 개행이 강제되지 않게 변경.
 - 내부 디펜던시 업데이트.
 
