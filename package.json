@@ -4,7 +4,7 @@
   "description": "stylelint config for fastcampus",
   "main": "index.js",
   "scripts": {
-    "test": "stylelint test.{scss,html} --config index.js -f verbose",
+    "test": "stylelint test.{scss,html} --config config.spec.js -f verbose",
     "ci:test": "npm run test"
   },
   "repository": {
@@ -34,6 +34,8 @@
   },
   "devDependencies": {
     "prettier": "^2.4.1",
-    "stylelint": "^14.0.1"
+    "stylelint": "^14.0.1",
+    "postcss-html": "^1.1.1",
+    "postcss-scss": "^4.0.1"
   }
 }
