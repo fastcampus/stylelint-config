@@ -14,6 +14,10 @@ module.exports = {
     "order/order": [
       {
         type: "at-rule",
+        name: "use",
+      },
+      {
+        type: "at-rule",
         name: "import",
       },
       "custom-properties",
